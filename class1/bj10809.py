@@ -6,7 +6,6 @@
     # 알파벳이 있다면 해당 알파벳의 번호가 여러개인지 하나인지 판별
         # 알파벳이 하나라면 인덱스 번호 출력
         # 알파벳이 두 개 이상이라면 가장 작은 인덱스 번호 출력
-        
 
 letter = list(input())
 index_value_dict = {value: index for index, value in enumerate(letter)}
